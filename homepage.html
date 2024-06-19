@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do_List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "heading">
+        <h2>TO DO LIST</h2>
+    </div>
+    <div id="login-container" class="login-container">
+        <h2>Login</h2>
+        <button onclick="login('admin')">Login as Admin</button>
+        <button onclick="login('guest')">Login as Guest</button>
+    </div>
+
+    <div id="app-container" class="container" style="display:none;">
+        <div class="todo-app">
+            <h2>To-Do List<img src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button id=add-button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container"></ul>
+        </div>
+        <button class="switch-button" onclick="switchUser()">Switch User</button>
+    </div>
+    
+    <footer>
+        <p>This project uses OPAL</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App - Get Organized!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Get Organized. Get Things Done.</h1>
+    <h2>The Simplest Way to Manage Your Tasks.</h2>
+  </header>
+  <main>
+      <div class="hero">
+          <img src="images\Default_A_vibrant_digital_art_piece_on_a_cinematic_scale_showc_3.jpg" alt="Get organized with our To-Do List App">
+        </div>
+        <div id="login-container" class="login-container">
+            <h2>Login</h2>
+            <button onclick="login('admin')">Login as Admin</button>
+            <button onclick="login('guest')">Login as Guest</button>
+        </div>
+        <div id="app-container" class="container" style="display:none;">
+            <div class="todo-app">
+                <h2>To-Do List<img src="images/icon.png"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your text">
+                    <button id=add-button onclick="addTask()">Add</button>
+                </div>
+                <ul id="list-container"></ul>
+            </div>
+            <button class="switch-button" onclick="switchUser()">Switch User</button>
+        </div>
+        <div class="benefits">
+            <h3>Benefits</h3>
+      <ul>
+        <li> Clear your mind and reduce stress.&#10003;</li>
+        <li> Boost productivity and stay on top of things.&#128194;</li>
+        <li> Simple and intuitive interface for easy task management.&#128187;</li>
+      </ul>
+    </div>      
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 To-Do List App</p>
+  </footer>
+</body>
+</html>
